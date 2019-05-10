@@ -21,6 +21,8 @@
   "admin/editor.search-result.hiddenFacets.specificationFilters.hideAll": "Ocultar todos os filtros de Especificações",
   "admin/editor.search-result.hiddenFacets.specificationFilters.hiddenFilter": "Filtro de Especificacões oculto",
   "admin/editor.search-result.hiddenFacets.specificationFilters.hiddenFilter.name": "Nome do filtro de Especificações oculto",
+  "admin/editor.search-result.show-category-panel.title": "Mostrar painel de categorias",
+  "admin/editor.search-result.quantity-of-items-per-row.title": "Número de categorias por linha",
   "admin/editor.search-result.showTitle": "Mostrar titulo da categoria ou termo de busca em cima da galeria",
   "admin/editor.search-result.gap.title": "Espaço entre os itens da galeria",
   "admin/editor.search-result.facet-quantity": "Mostrar quantidade dos filtros",

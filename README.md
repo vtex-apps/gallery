@@ -55,6 +55,7 @@ Now, you can change the behavior of the search result block that is in the store
       "breadcrumb",
       "order-by",
       "total-products",
+      "category-panel",
       "search-title"
     ],
     "props": {
@@ -69,7 +70,9 @@ Now, you can change the behavior of the search result block that is in the store
           "hiddenFilters": []
         }
       },
-      "pagination": "show-more"
+      "pagination": "show-more",
+      "showCategoryPanel": true,
+      "quantityOfItemsPerRow": 4
     }
   },
 ```
@@ -86,6 +89,7 @@ When implementing this app as a block, various inner blocks may be available. Th
       "filter-navigator",
       "total-products",
       "order-by",
+      "category-panel",
       "search-title"
     ],
     "required": [
@@ -117,6 +121,8 @@ Through the Storefront, you can change the search-result behavior and interface.
 | `querySchema` | `QuerySchema` | Query made when there's no context | N/A |
 | `hiddenFacets` | `HiddenFacets` | Indicates which facets will be hidden | N/A |
 | `pagination` | `Enum` | Pagination type (values: 'show-more' or 'infinite-scroll') | `infinity-scroll` |
+| `showCategoryPanel` | `Boolean` | Show category panel | false |
+| `quantityOfItemsPerRow` | `Enum` | Number of cards per row in category panel (values: 2 or 4) | 4 |
 
 QuerySchema
 
@@ -183,6 +189,8 @@ Below, we describe the namespaces that are defined in the search-result.
 | `filter` | Filter option container | [FilterOptionTemplate](/react/components/FilterOptionTemplate.js) |
 | `resultGallery` | Gallery result container | [SearchResult](/react/components/SearchResult.js) |
 | `border` | Order by container border | [SearchResult](/react/components/SearchResult.js) |
+| `categoryPanelHeaderRow` | The main container of category panel header | [CategoryPanel](/react/CategoryPanel.js) |
+| `categoryPanelItemRow` | The main container of category panel row | [CategoryPanel](/react/CategoryPanel.js) |
 | `gallery` | The main container of gallery | [Gallery](/react/Gallery.js) |
 | `filterPopupButton` | Filter pop-up button | [FilterSideBar](/react/components/FilterSideBar.js) |
 | `accordionFilter` | Accordion filter container | [AccordionFilterContainer](/react/components/AccordionFilterContainer.js) |

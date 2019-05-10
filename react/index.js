@@ -17,6 +17,8 @@ const DEFAULT_MAX_ITEMS_PER_PAGE = 10
 export default class SearchResultQueryLoader extends Component {
   static defaultProps = {
     orderBy: SORT_OPTIONS[0].value,
+    showCategoryPanel: false,
+    quantityOfItemsPerRow: 4,
   }
 
   static uiSchema = {
@@ -197,6 +199,25 @@ SearchResultQueryLoader.getSchema = props => {
           'admin/editor.search-result.pagination.show-more',
           'admin/editor.search-result.pagination.infinite-scroll',
         ],
+      },
+      showCategoryPanel: {
+        title: 'editor.search-result.show-category-panel.title',
+        type: 'boolean',
+        default: false,
+        isLayout: true,
+      },
+      quantityOfItemsPerRow: {
+        type: 'number',
+        title: 'editor.search-result.quantity-of-items-per-row.title',
+        enum: [2, 4],
+        default: 4,
+        widget: {
+          'ui:widget': 'radio',
+          'ui:options': {
+            inline: true,
+          },
+        },
+        isLayout: true,
       },
       showFacetQuantity: {
         type: 'boolean',
