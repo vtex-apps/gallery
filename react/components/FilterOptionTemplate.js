@@ -37,7 +37,11 @@ const FilterOptionTemplate = ({
     [open]
   )
 
-  const containerClassName = classNames(searchResult.filter, 'pv5', {
+  const handleFilterClass = () => { 
+    return `${searchResult.filterName}--${title.replace(/\s+/, "")}`
+  }
+
+  const containerClassName = classNames(searchResult.filter, `${!selected ? handleFilterClass() : ""}` ,'pv5', {
     [searchResult.filterSelected]: selected,
     [searchResult.filterAvailable]: !selected,
   })
