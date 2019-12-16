@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Added
+ - The `search-bar` on whitelist in the `search-not-found-layout`
+ 
 ## [3.39.9] - 2019-12-12
 ### Changed
 - Some dependency versions. Update with `yarn upgrade`.
