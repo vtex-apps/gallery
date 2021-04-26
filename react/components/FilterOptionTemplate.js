@@ -57,6 +57,7 @@ const CSS_HANDLES = [
   'filterTitle',
   'filterIcon',
   'filterContent',
+  'filterCollapsable',
   'filterTemplateOverflow',
   'seeMoreButton',
   'filterSelectedFilters',
@@ -240,7 +241,9 @@ const FilterOptionTemplate = ({
         <div
           role="button"
           tabIndex={collapsable ? 0 : undefined}
-          className={collapsable ? 'pointer' : ''}
+          className={`${handles.filterCollapsable} ${
+            collapsable ? 'pointer' : ''
+          }`}
           onClick={() => collapsable && handleCollapse()}
           onKeyDown={handleKeyDown}
           aria-disabled={!collapsable}
