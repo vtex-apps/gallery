@@ -42,6 +42,7 @@
   "admin.editor.search-result.advanced-settings.trackingId.description": "Nom à afficher dans Google Analytics. Si rien n’est noté, seulement « Résultat de recherche » sera utilisé",
   "admin/editor.search-result.ordination.sort-by": "Trier par",
   "admin/editor.search-result.total-products": "Total des produits",
+  
   "store/search-result.show-more-button": "Afficher davantage",
   "store/search-result.show-previous-button": "Afficher le précédent",
   "store/search-result.showing-products": "Afficher {value}",
@@ -51,16 +52,18 @@
   "store/search-result.filter-button.title": "Filtres",
   "store/search-result.filter-breadcrumbs.primary": "Filtres",
   "store/search-result.filter-button.apply": "Faire la demande",
-  "store/search-result.filter-button.clear": "Nettoyer",
+  "store/search-result.filter-button.clear": "Effacer",
+  "store/search-result.filter-button.clearAll": "Tout effacer",
   "store/search-result.orderby.title": "Trier par",
   "store/search-result.clear-filters.title": "Effacer",
   "store/search-result.filter-action.title": "Filtre",
   "store/search.filter.title.categories": "Services",
-  "store/filter.more-departments": "Voir {quantity} plus de services",
   "store/search.filter.title.color": "Couleur",
+  "store/filter.more-departments": "Voir {quantity} plus de services",
   "store/filter.more-categories": "Voir {quantity} plus de catégories",
-  "store/filter.more-items": "Voir plus",
+  "store/filter.more-items": "Afficher {quantity} plus",
   "store/filter.less-items": "Voir moins",
+  "store/search.filter.placeholder": "Recherche par {filterName}",
   "store/search.filter.title.brands": "Marques",
   "store/search.filter.title.price-ranges": "Gammes de prix",
   "store/search.text": "Afficher les {from}-{to} des {recordsFiltered} enregistrements",
@@ -94,5 +97,6 @@
   "admin/editor.search-result-layout-custom.title": "Mise en page flexible et personnalisée du résultat de recherche",
   "admin/editor.search-result-layout.title": "Mise en page flexible du résultat de recherche",
   "admin/editor.search-result-mobile.title": "Mise en page flexible du résultat de recherche sur mobile",
-  "admin/editor.search-result-desktop.title": "Mise en page flexible du résultat de recherche sur ordinateur"
+  "admin/editor.search-result-desktop.title": "Mise en page flexible du résultat de recherche sur ordinateur",
+  "store/search-result.price-ranges.submit": "Aller"
 }
