@@ -13,6 +13,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Fixed
 - Issue where paginated results would not render properly when lazy rendering is enabled.
 
+### Added
+- I18n Cs, It, Ja and No.
+- Crowdin configuration file
+
+### Fixed
+- Translations of several languages.
+
 ## [3.98.3] - 2021-04-15
 ### Fixed
 - Add new category mapping compatibility to `SearchTitle`
