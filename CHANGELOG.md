@@ -6,7 +6,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
-
+- Mobile filters drawer open direction prop to filters.V3
 ## [3.104.0] - 2021-07-08
 
 ### Changed
@@ -21,7 +21,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [3.101.0] - 2021-06-24
 ## Fixed
 - `scrollToTop` prop not being passed down to `PriceRange` component
-
 ## [3.100.0] - 2021-06-10
 ### Fixed
 - Gallery item's position now starts at 1
@@ -40,7 +39,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 - Pixel event triggered when a filter is changed
-- Mobile filters drawer open direction prop to filters.V3
 
 ## [3.98.4] - 2021-05-18
 ### Fixed
