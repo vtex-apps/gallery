@@ -7,6 +7,9 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+- Hide the facet quantity when search result is sampling.
+
 ## [3.104.0] - 2021-07-08
 
 ### Changed
